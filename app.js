@@ -67,12 +67,3 @@ app.post("/",function(req,res){
 app.listen(process.env.PORT || 3000,function(req,res){
         console.log("Server Running at Port 3000 ..........");
 });
-
-
-
-//Mail chim API KEY -
-//LABEL=MAILCHIMPAPI
-//KEY=3c38f357783d6c30f0e1ac3f662a851a-us21
-
-//Audiance id
-//5a4391de0c.
