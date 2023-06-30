@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>News-letter Subscribed</title>
+</head>
+<style>
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+
+    }
+
+    .container {
+        width: 75vw;
+        padding: 20px;
+        border-radius: 5px;
+        background: rgb(215, 213, 213);
+        box-shadow: 4px 6px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    h1,
+    p {
+        text-align: center;
+    }
+
+    button {
+        background-color: #24a0ed;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100px;
+        height: 27px;
+    }
+</style>
+
+<body>
+    <main class="container">
+        <h1>Success ! </h1>
+        <p class="lead">You are Successfully Added to Subscription List and now you will get all the update on you main
+            id .</p>
+            <button onclick="redirectToHome()">Home</button>
+
+            <script>
+              function redirectToHome() {
+                window.location.href = "/";
+              }
+            </script>
+    </main>
+</body>
+
+</html>
